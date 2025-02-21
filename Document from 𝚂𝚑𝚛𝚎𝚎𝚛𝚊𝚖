@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreeram Adiga - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0e0e;
+        }
+        header {
+            background: #0e0d0d;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .profile-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        .header-text {
+            text-align: center;
+        }
+        nav li:hover {
+            background: #9b8989;
+        }
+        nav {
+            background: #f3eaea;
+            color: black;
+            padding: 10px ;
+            margin: 20px;
+            border-radius: 10px;
+            margin-top: 1px;
+            text-align: right;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #0a0a0a;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+        h2 {
+            color: #f0e8e8;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+        }
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .contact-icons a {
+            margin: 0 10px;
+        }
+        .contact-icons img {
+            width: 30px;
+            height: 30px;
+        }
+        .experience-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+        }
+        .experience-item h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .company {
+            color: #666;
+            font-weight: bold;
+        }
+        .duration {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .social-links a:hover {
+            background: #555;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <div class="header-text">
+        <h1>SHREERAM ADIGA</h1>
+        <p>Frontend Developer and Data Engineer</p>
+        <p>Udupi</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>A passionate frontend developer and data engineer with a strong interest in problem solving and creating efficient web solutions.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C</li>
+    </ul>
+</section>
+
+<section id="tools">
+    <h2>Tools</h2>
+    <ul>
+        <li>VS Code</li>
+        <li>MySQL</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <h3>Project 1: Weather Predictor</h3>
+    <p><strong>Description:</strong> Simple HTML and JavaScript based project with API integration</p>
+    <p><strong>Technologies Used:</strong> HTML5, CSS, JavaScript</p>
+    <p><strong>Link:</strong> <a href="https://github.com/Shreeramadiga/Whether-predictor-project">View Project</a></p>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    
+        <h3>mit project</h3>
+        <p class="company">mit computer science departement</p>
+        <p class="duration">Jan 2025 - Present</p>
+        <ul>
+            <li>Creating responsive web applications using HTML, CSS, and JavaScript</li>
+            <li>Optimized website performance and accessibility</li>
+        </ul>
+    
+    
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    
+        <p>Email: shreeramadiga13@gmail.com</p>
+        <p>Phone: +91 9148179345</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/ShreeramAdig" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Shreeramadiga" target="_blank">GitHub</a>
+           <p>(c) 2025 shreeram adiga,all right reserved</p>
+        </div>
+    
+</section>
+
+
+</body>
+</html>
